@@ -10,6 +10,11 @@ An IRC bot that connects to Chat-GPT's davinci model via API and allows you inte
 6. Under "response = openai.Completion.create" change the model settings if you feel like it.
 7. Change the number in "if i >= 10:" if you want to modify the max amount of lines the bot can send to your channel. Default: 10
 
+# Added:
+8. IRC restrictions: max_chars_per_line = 256 
+9. Context! He can in context now!
+10. Multiple nicknames for contact with bot - allow_names variable.
+
 Run it and you should be good to go! To chat with the bot, type in ChatGPT: Hi!
 
 # Notes:
